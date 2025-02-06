@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-position: center;
+    overflow-x: hidden;
+}
+
+body head{
+    margin-bottom: 50%;
+}
+
+h1{
+    color: black;
+}
+header .logo{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+header .logo img{
+    width: 360px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.body .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbox{
+    text-align: center;
+    list-style: none;
+    background-color: white;
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+.navbox li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbox li ul{
+    display: inline-block;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+}
+.navbox li ul a{
+    background-color: darkgreen;
+    border-radius: 12px;
+    padding: 5px;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    text-shadow: 2px 2px 45px rgb(178, 78, 90);
+}
+
+.navbox li ul:hover a{
+    background-color: rgb(178, 78, 90);
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+}
+
+p{
+    font-size: 24px;
+    color:black;
+    text-shadow: 0px 1px 20px maroon;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+} 
+
+p span{
+    color: yellow;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px maroon;
+    border-radius: 20px;
+}
+
+.contacts{
+    background-color: maroon;
+    border-radius: 12px;
+    display: flex;
+    left: 50%;
+    right: 50%;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.contacts a{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    font-size: 14px;
+    text-shadow: 0px 0px 2px none;
+    font-style: italic;
+    padding: 20px 10px;
+}
+
+.contacts a:hover{
+    color: rgb(141, 141, 141);
+    font-size: 16px;
+}
+
+body button{
+    font-size: 24px;
+    border-radius: 12px;
+    padding: 5px 10px;
+    bottom: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+body button:hover{
+    background-color: rgb(197, 71, 71);
+}
+
+head .Address address strong{
+    margin-left: 20px;
+    text-align: left;
+}
+

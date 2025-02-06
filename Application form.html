@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: maroon;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            margin-top: 50px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .form-group textarea {
+            resize: vertical;
+        }
+        .form-group button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #45a049;
+        }
+        body{
+            overflow-x: hidden;
+        }
+        body header {
+            margin: 2px;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 20px;
+        }
+        body header .logo img {
+            width: 280px;
+            height: 240px;
+            margin-left: 20px;
+            border-radius: 50px;
+        }
+        header h1{
+            text-align: center;
+            font-size: 30px;
+            margin-top: 50px;
+            color: black;
+        }
+        .logo{
+            margin-bottom: -50px;
+        }
+
+        .navbox ul{
+            list-style-type: none;
+            overflow: hidden;
+            background-color: #333;
+            border-radius: 20px;
+            padding: 10px;
+            text-align: center;
+
+        }
+        
+        .navbox ul a{
+            margin-top: 50px;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+        .navbox ul a:hover{
+            background-color: #111;
+            cursor: pointer;
+            padding: 20px 10px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo" id="Logo">
+            <img src="Logo1.jpg">
+            </div>
+        <div class="navbox">
+            <ul>
+                <a href="index.html">Home</a>
+            </ul>
+        </div>
+    </header>
+    <div class="form-container">
+        <h2>Application Form</h2>
+        <form action="https://api.web3forms.com/submit" id="application-form" method="POST">
+            <input type="hidden" name="access_key" value="ccf7d541-b5fb-4108-b28d-926268eed4ce">
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="Description">Description</label>
+                <input type="text" id="Description" name="Description" placeholder="Something describing the child(ren)">
+            </div>
+            <div class="form-group">
+                <button type="submit" method="POST">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+        
