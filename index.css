@@ -72,6 +72,9 @@ html {
     .balloon{
         display: none;
     }
+    .letters{
+        display: none;
+    }
 }
 
 .navbox ,footer p{
@@ -89,7 +92,7 @@ header .logo img {
     height: 300px;
     margin-top: 10px;
     transform: translateX(-50%);
-    border-radius: 20%;
+    border-radius: 10%;
     left: 40px;
 }
 
@@ -285,4 +288,3 @@ footer a{
         transform: translateY(-1000%);
     }
 }
-
