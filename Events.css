@@ -107,7 +107,7 @@ header {
     width: 250px;
     height: 250px;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 10%;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
@@ -155,7 +155,7 @@ header {
     40%, 50% {transform: translateX(-200%);}
     60%, 70% {transform: translateX(-250%);}
     80%, 90% {transform: translateX(-300%);}
-    100% {transform: translateX(-350%);}
+    100% {transform: translateX(-320%);}
 }
 
 .newpics h1 {
