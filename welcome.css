@@ -121,3 +121,12 @@ body h2 {
     top: 460px;
     left: 50%;
 }
+
+@media screen and (max-width: 768px) {
+   .events{
+       top: 480px;
+   }
+   #HOME{
+       top: 480px;
+   }
+}
