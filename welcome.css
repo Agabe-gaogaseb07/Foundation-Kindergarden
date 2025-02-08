@@ -61,8 +61,7 @@ body p span {
     background-color: orange;
 }
 #HOME {
-    margin-top: 420px;
-    transform: translateX(-40%);
+    transform: translateX(-60%);
     font-size: 24px;
     border-radius: 12px;
     padding: 0.2em;
@@ -70,10 +69,12 @@ body p span {
     text-shadow: 0px 0px 2px red;
     position: relative;
     left: 50%;
+    top: 50%;
 }
 
-#Events {    
-    margin-top: 420px;
+#Events {
+    text-align: center;
+    margin-top: 460px;
     transform: translateX(-40%);
     font-size: 24px;
     border-radius: 12px;
@@ -97,7 +98,7 @@ p span:nth-child(6) { color: purple; }
 
 @media screen and (max-width: 768px) {
     .container {
-        margin-top: 20px;
+        margin-top: 10px;
         height: 280px;
         width: 100vmin;
     }
@@ -114,11 +115,9 @@ p span:nth-child(6) { color: purple; }
 
     #HOME, #Events {
         font-size: 18px;
-        margin-bottom: 200px;
-        margin-top: 50%;
+        margin-bottom: 50px;
     }
     h1{
         margin-bottom: 20px;
-        margin-top: 50px;
     }
 }
