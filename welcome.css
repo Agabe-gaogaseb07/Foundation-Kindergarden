@@ -61,7 +61,6 @@ body p span {
     background-color: orange;
 }
 #HOME {
-    margin-top: 420px;
     transform: translateX(-60%);
     font-size: 24px;
     border-radius: 12px;
