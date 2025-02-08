@@ -61,6 +61,7 @@ body p span {
     background-color: orange;
 }
 #HOME {
+    margin: 460px;
     transform: translateX(-60%);
     font-size: 24px;
     border-radius: 12px;
@@ -72,7 +73,7 @@ body p span {
 }
 
 #Events {    
-    margin: 520px;
+    margin: 460px;
     transform: translateX(-40%);
     font-size: 24px;
     border-radius: 12px;
