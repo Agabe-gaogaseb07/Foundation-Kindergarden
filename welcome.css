@@ -115,9 +115,6 @@ p span:nth-child(6) { color: purple; }
 
     #HOME, #Events {
         font-size: 18px;
-        margin-bottom: 50px;
     }
-    h1{
-        margin-bottom: 20px;
-    }
+
 }
