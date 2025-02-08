@@ -72,7 +72,7 @@ body p span {
 }
 
 #Events {    
-    margin-top: 520px;
+    top: 520px;
     transform: translateX(-40%);
     font-size: 24px;
     border-radius: 12px;
