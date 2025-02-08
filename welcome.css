@@ -71,8 +71,8 @@ body p span {
     left: 50%;
 }
 
-#Events {
-    top: 460px;
+#Events {    
+    margin-top: 460px;
     transform: translateX(-40%);
     font-size: 24px;
     border-radius: 12px;
