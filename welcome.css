@@ -98,7 +98,7 @@ p span:nth-child(6) { color: purple; }
 
 @media screen and (max-width: 768px) {
     .container {
-        margin-top: 50%;
+        margin-top: 10px;
         height: 280px;
         width: 100vmin;
     }
@@ -114,8 +114,11 @@ p span:nth-child(6) { color: purple; }
     }
 
     #HOME, #Events {
-        margin-top: -20%;
         font-size: 18px;
+        margin-bottom: -40px;
+    }
+    h1, p, span{
+        margin-bottom: 5px;
     }
 
 }
