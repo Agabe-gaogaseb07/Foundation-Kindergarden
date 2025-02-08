@@ -70,6 +70,7 @@ body p span {
     position: relative;
     left: 50%;
     top: 50%;
+    margin-top: 10px;
 }
 
 #Events {
@@ -83,6 +84,7 @@ body p span {
     text-shadow: 0px 0px 2px red;
     position: relative;
     left: 50%;
+    margin-top: 10px;
 }
 
 body button:hover {
