@@ -98,7 +98,7 @@ p span:nth-child(6) { color: purple; }
 
 @media screen and (max-width: 768px) {
     .container {
-        margin-top: 10px;
+        margin-top: 50px;
         height: 280px;
         width: 100vmin;
     }
