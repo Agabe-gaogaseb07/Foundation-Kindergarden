@@ -19,7 +19,7 @@ h1 {
 
 .container {
     height: 380px;
-    margin-top: 50px;
+    margin-top: 10px;
     width: 100vmin;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -70,12 +70,11 @@ body p span {
     position: relative;
     left: 50%;
     top: 50%;
-    margin-top: 10px;
 }
 
 #Events {
     text-align: center;
-    margin-top: 500px;
+    margin-top: 480px;
     transform: translateX(-40%);
     font-size: 24px;
     border-radius: 12px;
@@ -84,7 +83,6 @@ body p span {
     text-shadow: 0px 0px 2px red;
     position: relative;
     left: 50%;
-    margin-top: 10px;
 }
 
 body button:hover {
@@ -99,11 +97,6 @@ p span:nth-child(5) { color: red; }
 p span:nth-child(6) { color: purple; }
 
 @media screen and (max-width: 768px) {
-    .container {
-        margin-top: 10px;
-        height: 280px;
-        width: 100vmin;
-    }
 
     .wrapper img {
         width: 260px;
@@ -114,12 +107,7 @@ p span:nth-child(6) { color: purple; }
     body p {
         font-size: 18px;
     }
-
-    #HOME, #Events {
-        font-size: 18px;
-    }
     h1, p, span{
         margin-bottom: 5px;
     }
-
 }
