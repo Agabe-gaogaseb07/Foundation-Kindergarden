@@ -71,10 +71,10 @@ html {
         transform: translateX(50%);
     }
     .balloon{
-        display: none;
+        display: block;
     }
     .letters{
-        display: none;
+        display: block;
     }
 }
 
@@ -118,13 +118,13 @@ footer a{
 
 .balloon .balloon1 {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    left: 420%;
+    width: 30px;
+    height: 30px;
+    left: 350%;
     background-color: red;
     position: absolute;
     bottom: 0;
-    animation: floatUp 10s ease-in-out infinite;
+    animation: floatUp 20s ease-in-out infinite;
 }
 
 .balloon .balloon2 {

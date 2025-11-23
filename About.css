@@ -15,7 +15,7 @@ body {
 }
 
 .nav {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -36,8 +36,8 @@ body {
 
 .navbox ul li {
     display: inline-block;
-    padding: 0 10px;
-    margin: 10px;
+    padding: 10px 5px;
+    margin: 5px;
 }
 
 .navbox ul li a {
@@ -75,7 +75,6 @@ body h1{
     margin-top: 20px;
     text-shadow: 3px 0px 4px black;
     color: maroon;
-    min-width: 100%;
     height: auto;
     margin-bottom: 40px;
     font-size: 38px;
@@ -86,32 +85,15 @@ body h1{
     margin-top: 0px;
     text-shadow: 3px 0px 4px green;
     color: purple;
-    min-width: 100%;
     padding: 0px 150px;
     font-size: 24px;
 }
 
-#Our-Mission img{
-    height: auto;
-    width: 360px;
-    justify-content: center;
-}
-#Values #Creativity{
-    text-align: center;
-    margin-top: 20px;
-    text-shadow: 3px 0px 4px black;
-    color: maroon;
-    min-width: 100%;
-    height: auto;
-    font-size: 24px;
-    margin-bottom: 10px;
-}
 
 #Values p{
     text-align: center;
     margin-top: 20px;
     color: black;
-    min-width: 100%;
     height: auto;
 }
 #Philosophy h2, p{
@@ -119,24 +101,17 @@ body h1{
     margin-top: 20px;
     text-shadow: 3px 0px 4px green;
     color: orangered;
-    min-width: 100%;
     height: auto;
     padding: 0px 150px;
     margin-bottom: 50px;
 }
 
-#Philosophy img{
-    height: auto;
-    width: 360px;
-    justify-content: center;
-}
 
 #Values h2{
     text-align: center;
     margin-top: 20px;
     text-shadow: 3px 0px 4px green;
     color: palevioletred;
-    min-width: 100%;
     height: auto;
     font-size: 38px;
     margin-bottom: 50px;
@@ -151,7 +126,6 @@ body h1{
     margin-top: 20px;
     text-shadow: 3px 6px 4px black;
     color: blue;
-    min-width: 100%;
     height: auto;
     font-size: 28px;
     text-shadow: 2px 0px 3px green;
@@ -161,7 +135,6 @@ body h1{
     margin-top: 20px;
     text-shadow: 3px 6px 4px black;
     color: purple;
-    min-width: 100%;
     height: auto;
     font-size: 28px;
     text-shadow: 2px 3px 3px green;
@@ -172,7 +145,6 @@ body h1{
     margin-top: 20px;
     text-shadow: 3px 6px 4px black;
     color: purple;
-    min-width: 100%;
     height: auto;
     font-size: 28px;
     text-shadow: 2px 3px 3px green;
@@ -183,16 +155,9 @@ body h1{
     margin-top: 20px;
     text-shadow: 0px 0px 4px blue;
     color: red;
-    min-width: 100%;
     height: auto;
     font-size: 28px;
     margin-bottom: 10px;
-}
-
-#Values  img{
-    height: auto;
-    width: 360px;
-    justify-content: center;
 }
 
 #reasons h2, p{
@@ -200,7 +165,6 @@ body h1{
     margin-top: 20px;
     text-shadow: 3px 0px 4px royalblue;
     color: black;
-    min-width: 100%;
     height: auto;
     font-size: 28px;
     margin-bottom: 50px;
@@ -212,7 +176,6 @@ body h1{
     margin-top: 20px;
     font-weight: bold;
     color: yellow;
-    min-width: 100%;
     height: auto;
     font-size: 28px;
     text-shadow: 2px 8px 3px green;
@@ -224,7 +187,6 @@ body h1{
     margin-top: 20px;
     text-shadow: 3px 0px 4px green;
     color: black;
-    min-width: 100%;
     height: auto;
     font-size: 28px;
     margin-bottom: 50px;
@@ -233,7 +195,6 @@ body h1{
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
-    min-width: 100%;
     height: auto;
     font-size: 28px;
     color:brown;
@@ -245,7 +206,6 @@ body h1{
     text-shadow: 3px 0px 4px green;
     color: blue;
     font-weight: bold;
-    min-width: 100%;
     height: auto;
     font-size: 28px;
     margin-bottom: 10px;
@@ -257,7 +217,6 @@ body h1{
     text-shadow: 3px 0px 4px green;
     color: purple;
     font-weight: bold;
-    min-width: 100%;
     height: auto;
     font-size: 28px;
     margin-bottom: 10px;
@@ -268,7 +227,6 @@ body h1{
     margin-top: 20px;
     color:darkmagenta;
     font-weight: bold;
-    min-width: 100%;
     height: auto;
     font-size: 28px;
     margin-bottom: 10px;
@@ -279,7 +237,6 @@ body h1{
     margin-top: 20px;
     color:yellow;
     font-weight: bold;
-    min-width: 100%;
     height: auto;
     font-size: 28px;
     margin-bottom: 10px;
@@ -292,7 +249,7 @@ body h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100vh;
 }
 
 .reason3 img{
@@ -303,7 +260,7 @@ body h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100vh;
 }
 
 .reason2 img{
@@ -314,7 +271,7 @@ body h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100vh;
 }
 
 
@@ -326,5 +283,5 @@ body h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100vh;
 }
